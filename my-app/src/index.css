@@ -27,5 +27,13 @@ button {
   border-color: #ffc1c8;
   text-align: center;
   background-color: #ffcece;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
 }
 
+.Components.Home {
+  padding-top: 5%;
+}
