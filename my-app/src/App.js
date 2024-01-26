@@ -27,12 +27,12 @@ function App() {
     <>
       
     <Header></Header>
-    <ul>
+    
       <button onClick={() => scrollToSection(home)} className="link"> Home </button>
       <button onClick={() => scrollToSection(projects)} className="link"> Projects </button>
       <button onClick={() => scrollToSection(contact)} className="link"> Contact </button>
       <button onClick={() => scrollToSection(about)} className="link"> About Me </button>
-    </ul>
+ 
     <div ref={home} className="home">
       <Home></Home>
     </div>
