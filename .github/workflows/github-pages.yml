@@ -28,6 +28,7 @@ jobs:
 
       - run: |
           sed -i '5i\ "homepage":' my-app/package.json
+      - run: npm install react-scripts
       - run: npm install
       - run: npm ci
       - run: npm run build
