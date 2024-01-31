@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-    pull_requests:
+    pull_request:
 
 jobs:
   deploy:
@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-versions: '14'
+          node-version: '14'
 
       - name: Cache dependencies
         uses: actions/cache@v2
