@@ -29,7 +29,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: |
-          sed -1 '5i\ "homepage": "/Melissa2002.github.io", ' ./package.json
+          sed -1 '5i\ "homepage": "https://Melissa2002.github.io/react-gh-pages", ' ./package.json
       - run: npm ci
       - run: npm run build
       - run: cp build/index.html build/404.html
