@@ -6,7 +6,6 @@ on:
       - main
     pull_requests:
 
-
 jobs:
   deploy:
     runs-on: ubuntu-20.04
