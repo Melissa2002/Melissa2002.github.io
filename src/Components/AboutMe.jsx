@@ -4,6 +4,9 @@ function AboutMe() {
     return (
         <>
         <h2>About Me</h2>
+        <p> NOTE: this page is currently a work in progress as I am using it as a learning experience.
+            Apologies if you are accessing it in between makeovers.
+        </p>
          <p> Hello! My name is Melissa, and I am completing my degree in bioinformatics 
             in the Spring of this year (2024) from the University of California, San Diego. 
             This major gave me deep understanding of how computer science can be used to 
