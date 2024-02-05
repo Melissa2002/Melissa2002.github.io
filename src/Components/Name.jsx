@@ -1,5 +1,4 @@
 import React from "react";
-import Me from "./Attach0.jpg"
 
 function Header() {
     return (
