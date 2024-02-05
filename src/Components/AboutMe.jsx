@@ -4,7 +4,8 @@ function AboutMe() {
     return (
         <>
         <h2>About Me</h2>
-        <iframe src="https://drive.google.com/file/d/1C4S_4A7KjHSumRafDZuZHzzaKnhjhFov/view?usp=sharing"> Resume </iframe>
+        <a href="/Users/melissaosheroff/Downloads/CVOsheroff (7).pdf" target="blank">Resume</a>
+
         <p> NOTE: this page is currently a work in progress as I am using it as a learning experience.
             Apologies if you are accessing it in between makeovers. 
         </p>
