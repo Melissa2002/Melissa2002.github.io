@@ -11,6 +11,10 @@ function Home() {
             to document coding projects. Please enjoy learning about me, and don't be
             shy to reach out if you have any comments or questions.
             </p>
+            <p> NOTE: this page is currently a work in progress as I am using it as a 
+                learning experience. For that reason, please understand you might access
+                 it in between renovations. 
+            </p>
         </div> 
 
         );
