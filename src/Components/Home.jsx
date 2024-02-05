@@ -4,7 +4,7 @@ import Me from "./Attach0.jpg"
 function Home() {
     return (
         <div class="clearfix">
-            <img src={Me} class="col-md-6 float-md-end mb-3 ms-md-3"></img>
+            <img src={Me} width="25%" height="auto" class="col-md-6 float-md-end mb-3 ms-md-3"></img>
 
             <p>
             Hi there! My name is Melissa, and this is my personal portfolio where I hope
