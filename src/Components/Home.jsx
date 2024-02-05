@@ -3,14 +3,18 @@ import Me from "./Attach0.jpg"
 
 function Home() {
     return (
-        <>
-            <img src={Me}  alt="MyProfile" width="300" height="300"/>
-            <p>Welcome to my personal portfolio! I created this website so that I 
-                could document personal projects, as well as challenge myself to learn 
-                new coding skills like React, Javascript, and Bootstrap. Please enjoy learning about
-                me and reach out if you have any comments or questions. 
+        <div class="row">
+            <div class="column">
+            <p> Hi there! My name is Melissa, and this is my personal portfolio where I hope
+                to document coding projects. Please enjoy learning about me, and don't be
+                shy to reach out if you have any comments or questions. 
             </p>
-       </>
+            </div>
+            <div class="column">
+            <img src={Me}  alt="MyProfile" width="80%" height="auto"/>
+            </div>
+        </div>
+            
     );
   }
   
