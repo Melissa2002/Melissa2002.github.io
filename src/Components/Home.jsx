@@ -5,7 +5,7 @@ function Home() {
     return (
         <div class="clearfix">
             <img src={Me} width="25%" height="auto" class="col-md-6 float-md-end mb-3 ms-md-3"></img>
-
+            <h3>I am so happy you're here...</h3>
             <p>
             Hi there! My name is Melissa, and this is my personal portfolio where I hope
             to document coding projects. Please enjoy learning about me, and don't be
