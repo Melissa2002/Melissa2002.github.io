@@ -13,31 +13,30 @@ function Contact() {
         
         <h2>Contact</h2>
          <p> Let's chat! I am always looking for new projects and collaborations. </p>
-         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <Button href="mailto:melissa.e.osheroff@gmail.com?subject=Business%20Inquiries%20Through%20Portfolio">
-                    <img src={Email} width="20%" />
+         <tr>
+            <td>
+            <Button href="mailto:melissa.e.osheroff@gmail.com?subject=Business%20Inquiries%20Through%20Portfolio">
+                    <img src={Email} width="75%" />
                     <br></br>
                     Email
                     </Button>
-                </div>
-                <div class="col" >
-                    <Button href="tel:4155901894">
-                    <img src={Phone} width="15%"/> 
+            </td>
+            
+            <td>
+            <Button href="tel:4155901894">
+                    <img src={Phone} width="60%"></img> 
                     <br></br>
                     Phone
-                    </Button>
-                </div>
-                <div class="col" >
-                    <Button href="https://drive.google.com/file/d/1C4S_4A7KjHSumRafDZuZHzzaKnhjhFov/view?usp=sharing" target="blank">
-                    <img src={ResumePng} width="25%"/> 
+            </Button>
+            </td>
+            <td>
+            <Button href="https://drive.google.com/file/d/1C4S_4A7KjHSumRafDZuZHzzaKnhjhFov/view?usp=sharing" target="blank">
+                    <img src={ResumePng} width="30%"/> 
                     <br></br>
-                    Resume
+                     Resume
                     </Button>
-                </div>
-            </div>
-        </div>
+            </td>
+         </tr>
         </>
     
     );
