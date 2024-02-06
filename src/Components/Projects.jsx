@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectMajithia from "/Users/melissaosheroff/Documents/GitHub/Melissa2002.github.io/src/Projects.js"
 
 function Projects() {
     return (
@@ -9,7 +8,7 @@ function Projects() {
             </h1>
             <tr>
            <td>
-            <h3>Undergraduate Reasearch Assistant @UCSD Medical School: 06/2022-12/2022</h3>
+            <h3 >Undergraduate Reasearch Assistant @UCSD Medical School: 06/2022-12/2022</h3>
               <p>
                 As an undergraduate research assistant I mainly worked on methods of analyzing continuous glucose monitoring trace: specifically, determining if an individual's glucose trace 
                 was uniquely identifiable to them. I developed python code aimed at determining similarities between different days of a patient's raw continuous glucose monitoring data using 
@@ -24,7 +23,7 @@ function Projects() {
               below). The internship continued into my spring quarter of junior year where I then expanded to create an interactive web app that could combine datasets from the company database 
               and compare various metrics, but cannot disclose findings. 
           
-                <iframe href={ProjectMajithia} src="https://docs.google.com/presentation/d/e/2PACX-1vSaZMFXcJxoPiZtQEeEUMKrU706nUAebnk2KtWgknyqEUAOjyL22Fyk7IotvWfsLBCWKFsSKELGlCBc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="auto" height="auto" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSaZMFXcJxoPiZtQEeEUMKrU706nUAebnk2KtWgknyqEUAOjyL22Fyk7IotvWfsLBCWKFsSKELGlCBc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="auto" height="auto" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
               </p>  
           </td>
         </tr>
