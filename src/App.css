@@ -44,6 +44,7 @@ div:col{
 
 .btn:hover {
   color: rgb(220, 69, 69);
+  transform: scale(1.2);
 }
 
 button {
@@ -61,6 +62,7 @@ button {
 
 button:hover {
   color: rgb(220, 69, 69);
+  transform: scale(1.1);
 
 }
 

@@ -6,7 +6,7 @@ function Home() {
         <div class="clearfix">
             <br></br>
             <img src={Me} width="25%" height="auto" class="col-md-6 float-md-end mb-3 ms-md-3"></img>
-            <h2>I am so happy that you're here...</h2>
+            <h3>I am so happy that you're here...</h3>
             <p>
             Hi there! My name is Melissa, and I am completing my degree in bioinformatics this Spring  
             from the University of California, San Diego. My passion lies in finding real-life applications 
@@ -17,7 +17,7 @@ function Home() {
             </p>
             <p> NOTE: this page is currently a work in progress as I am using it as a 
                 learning experience. For that reason, please understand you might access
-                 it in between renovations. 
+                 it inbetween renovations. 
             </p>
         </div> 
 
