@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectMajithia from "/Users/melissaosheroff/Documents/GitHub/Melissa2002.github.io/src/Projects.js"
 
 function Projects() {
     return (
@@ -13,7 +14,7 @@ function Projects() {
                 As an undergraduate research assistant I mainly worked on methods of analyzing continuous glucose monitoring trace: specifically, determining if an individual's glucose trace 
                 was uniquely identifiable to them. I developed python code aimed at determining similarities between different days of a patient's raw continuous glucose monitoring data using 
                 correlation matrices, dendograms, principal component analysis, and k-means.                                                                                                                                                                                                            
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRgAto5EIE1rhVAv58mjEgShb8LUeUATJNh25suBew1etJb_CU24o4aw9nrPD8TYQ-vm6sHlXFflGG9/embed?start=false&loop=false&delayms=3000" frameborder="0" width="500px" height="400px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRgAto5EIE1rhVAv58mjEgShb8LUeUATJNh25suBew1etJb_CU24o4aw9nrPD8TYQ-vm6sHlXFflGG9/embed?start=false&loop=false&delayms=3000" frameborder="0" width="auto" height="auto" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
               </p>
           </td>
           <td>
@@ -22,7 +23,8 @@ function Projects() {
               For this project, I created a code in Python that could parse out values from a csv file in order to the organize subsets based on manufacturer and model of the machine (see presentation 
               below). The internship continued into my spring quarter of junior year where I then expanded to create an interactive web app that could combine datasets from the company database 
               and compare various metrics, but cannot disclose findings. 
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSaZMFXcJxoPiZtQEeEUMKrU706nUAebnk2KtWgknyqEUAOjyL22Fyk7IotvWfsLBCWKFsSKELGlCBc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="500px" height="400px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
+          
+                <iframe href={ProjectMajithia} src="https://docs.google.com/presentation/d/e/2PACX-1vSaZMFXcJxoPiZtQEeEUMKrU706nUAebnk2KtWgknyqEUAOjyL22Fyk7IotvWfsLBCWKFsSKELGlCBc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="auto" height="auto" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
               </p>  
           </td>
         </tr>

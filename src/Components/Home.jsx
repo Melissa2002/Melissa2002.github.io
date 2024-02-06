@@ -4,6 +4,7 @@ import Me from "./Attach0.jpg"
 function Home() {
     return (
         <div class="clearfix">
+            <br></br>
             <img src={Me} width="25%" height="auto" class="col-md-6 float-md-end mb-3 ms-md-3"></img>
             <h2>I am so happy that you're here...</h2>
             <p>

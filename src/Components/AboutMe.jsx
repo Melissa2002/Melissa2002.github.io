@@ -4,7 +4,6 @@ function AboutMe() {
     return (
         <>
         <h2>About Me</h2>
-        <a href="https://drive.google.com/file/d/1C4S_4A7KjHSumRafDZuZHzzaKnhjhFov/view?usp=sharing" target="blank">Resume</a>
 
          <p> Hello! My name is Melissa, and I am completing my degree in bioinformatics 
             in the Spring of this year (2024) from the University of California, San Diego. 
