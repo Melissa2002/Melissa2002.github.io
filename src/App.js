@@ -30,7 +30,6 @@ function App() {
       <button onClick={() => scrollToSection(home)} className="link"> Home </button>
       <button onClick={() => scrollToSection(projects)} className="link"> Projects </button>
       <button onClick={() => scrollToSection(contact)} className="link"> Contact </button>
-      <button onClick={() => scrollToSection(about)} className="link"> About Me </button>
  
     <div ref={home} className="home">
       <Home></Home>
@@ -41,9 +40,7 @@ function App() {
     <div ref={contact} className="contact">
       <Contact></Contact>
     </div>
-    <div ref={about} className="about">
-      <AboutMe></AboutMe>
-    </div>
+
 
    
         
