@@ -16,7 +16,7 @@ function Contact() {
          <tr>
             <td>
             <Button href="mailto:melissa.e.osheroff@gmail.com?subject=Business%20Inquiries%20Through%20Portfolio">
-                    <img src={Email} width="75%" />
+                    <img src={Email} width="50%" />
                     <br></br>
                     Email
                     </Button>
@@ -24,14 +24,14 @@ function Contact() {
             
             <td>
             <Button href="tel:4155901894">
-                    <img src={Phone} width="60%"></img> 
+                    <img src={Phone} width="50%"></img> 
                     <br></br>
                     Phone
             </Button>
             </td>
             <td>
             <Button href="https://drive.google.com/file/d/1C4S_4A7KjHSumRafDZuZHzzaKnhjhFov/view?usp=sharing" target="blank">
-                    <img src={ResumePng} width="30%"/> 
+                    <img src={ResumePng} width="20%"/> 
                     <br></br>
                      Resume
                     </Button>
