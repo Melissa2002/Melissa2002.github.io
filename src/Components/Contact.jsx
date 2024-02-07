@@ -15,7 +15,7 @@ function Contact() {
          <p> Let's chat! I am always looking for new projects and collaborations. </p>
          <tr>
             <td>
-            <Button href="mailto:melissa.e.osheroff@gmail.com?subject=Business%20Inquiries%20Through%20Portfolio" class="btn btn-info" role="button">
+            <Button onClick={()=> window.open("mailto:melissa.e.osheroff@gmail.com", "_blank")}>
                     <img src={Email} width="50%"></img> 
                     <br></br>
                     Email
@@ -23,14 +23,14 @@ function Contact() {
             </td>
             
             <td>
-            <Button href="tel:4155901894">
+            <Button onClick={()=> window.open("tel:4155901894")}>
                     <img src={Phone} width="50%"></img> 
                     <br></br>
                     Phone
             </Button>
             </td>
             <td>
-            <Button href="https://drive.google.com/file/d/1C4S_4A7KjHSumRafDZuZHzzaKnhjhFov/view?usp=sharing" target="blank">
+            <Button onClick={()=> window.open("https://drive.google.com/file/d/1C4S_4A7KjHSumRafDZuZHzzaKnhjhFov/view?usp=sharing", "_blank")}>
                     <img src={ResumePng} width="20%"/> 
                     <br></br>
                      Resume

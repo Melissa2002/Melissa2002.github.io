@@ -11,13 +11,13 @@ function Projects() {
             </h2>
             <div class="container">
               <div class="item item-1">
-                <Button> 
+                <Button onClick={()=> window.open("https://docs.google.com/presentation/d/1TA0Y1yJYtrWBmrIt7bzS5UMDWPzaz9a8t3xG3fjCxlA/edit?usp=sharing", "_blank")}>
                   <h3>CGM Fingerprinting Project</h3>
                 <img src={CGM} width="80%" height="auto"></img>
                 </Button>
               </div>
               <div class="item item-2">
-              <Button>
+              <Button onClick={()=> window.open("https://docs.google.com/presentation/d/1lLPm_F4HUlg73Bu0c_pAar3Y3ujj3rf_vV5nmeaW6jo/edit?usp=sharing", "_blank")}>
                 <h3>
                 Medical Imaging Data QC
                 </h3>
