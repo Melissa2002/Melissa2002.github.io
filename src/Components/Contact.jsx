@@ -15,8 +15,8 @@ function Contact() {
          <p> Let's chat! I am always looking for new projects and collaborations. </p>
          <tr>
             <td>
-            <Button href="mailto:melissa.e.osheroff@gmail.com?subject=Business%20Inquiries%20Through%20Portfolio">
-                    <img src={Email} width="50%" />
+            <Button href="mailto:melissa.e.osheroff@gmail.com?subject=Business%20Inquiries%20Through%20Portfolio" class="btn btn-info" role="button">
+                    <img src={Email} width="50%"></img> 
                     <br></br>
                     Email
                     </Button>
