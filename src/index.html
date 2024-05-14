@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Personal Website</title>
+        <link rel="stylesheet" href="index.css">
+		<script
+			id="sap-ui-bootstrap"
+			src="">
+		</script>
+	</head>
+	<body id="content">
+        <h1> Melissa E. Osheroff </h1>
+
+        <Header></Header>
+    
+      <button onClick='{() => scrollToSection(home)}' className="link"> Home </button>
+      <button onClick='{() => scrollToSection(projects)}' className="link"> Projects </button>
+      <button onClick='{() => scrollToSection(contact)}' className="link"> Contact </button>
+ 
+    <div ref={home} className="home">
+      <Home></Home>
+    </div>
+    <div ref={projects} className="projects">
+      <Projects></Projects>
+    </div>
+    <div ref={contact} className="contact">
+      <Contact></Contact>
+    </div>
+        <div class="introduction" >
+            <div class= "item item-2"> <h3>I am so happy that you're here...</h3> </div>
+            <div class="item item-1"> <img src="./Components/images/Attach0.jpg" width="20%" height="auto" ></img> </div>
+            <div class="item description">
+                <p>
+                Hi there! My name is Melissa, and I am completing my degree in bioinformatics this Spring  
+                from the University of California, San Diego. My passion lies in finding real-life applications 
+                of computer science and data analytics. I hope to leverage my understanding of algorithms and
+                technology to create a positive impact in the world. I created this personal portfolio for the 
+                purpose of document coding projects and professional experiences. Please enjoy learning about me,
+                and don't be shy to reach out if you have any comments or questions!
+                </p>
+            </div>
+        </div>
+
+        <div class="projects">
+            <h2> Projects </h2>
+            <div class="container">
+                <div class="item item-1">
+                <Button onClick='{()=> window.open("https://docs.google.com/presentation/d/1TA0Y1yJYtrWBmrIt7bzS5UMDWPzaz9a8t3xG3fjCxlA/edit?usp=sharing", "_blank")}'>
+                    <h3>CGM Fingerprinting Project</h3>
+                <img src="./Components/images/CGM.png" width="80%" height="auto"></img>
+                </Button>
+                </div>
+                <div class="item item-2">
+                <Button onClick='{()=> window.open("https://docs.google.com/presentation/d/1lLPm_F4HUlg73Bu0c_pAar3Y3ujj3rf_vV5nmeaW6jo/edit?usp=sharing", "_blank")}'>
+                <h3> Medical Imaging Data QC </h3>
+                <img src="./Components/images/Surgalign.png" width="80%" height="auto"></img>
+                </Button>
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <h2>About Me</h2>
+            <p> Hello! My name is Melissa, and I am completing my degree in bioinformatics 
+                in the Spring of this year (2024) from the University of California, San Diego. 
+                This major gave me deep understanding of how computer science can be used to 
+                explain and analyze datasets too large otherwise to make sense of. When exploring 
+                technology in class, labs, and industry, I began to realize how little I truly 
+                began to understand that I did not ask enough questions about the commodities associated
+                 with living in California. I used technology everyday without questioning the painstaking 
+                 work it must have taken the inventions behind the product. 
+                 My true passion is asking "why?", exploring the unknown, and using this understanding to
+                 create what once seemed impossible.  </p>
+        </div>
+
+        <div class="contact">
+            <h2>Contact</h2>
+            <p> Let's chat! I am always looking for new projects and collaborations. </p>
+            <tr>
+               <td>
+               <Button onClick='{()=> window.open("mailto:melissa.e.osheroff@gmail.com", "_blank")}''>
+                       <img src="./Components/images/mail.png" width="50%"></img> 
+                       <br></br>
+                       Email
+                       </Button>
+               </td>
+               <td>
+               <Button onClick='{()=> window.open("tel:4155901894")}''>
+                       <img src="./Components/images/mobile-clipart-md.png" width="50%"></img> 
+                       <br></br>
+                       Phone
+               </Button>
+               </td>
+               <td>
+               <Button onClick='{()=> window.open("https://drive.google.com/file/d/1C4S_4A7KjHSumRafDZuZHzzaKnhjhFov/view?usp=sharing", "_blank")}'>
+                       <img src="./Components/images/resumeicon.png" width="20%"/> 
+                       <br></br>
+                        Resume
+                       </Button>
+               </td>
+            </tr>
+        </div>
+	</body>
+</html>
