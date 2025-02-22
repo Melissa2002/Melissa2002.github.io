@@ -5,133 +5,101 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Personal Website</title>
-        <link rel="stylesheet" href="./src/index.css">
+        <link rel="stylesheet" href="/index.css">
 		<script id="sap-ui-bootstrap" src=""> </script>
         <script id="js-file" src="./src/App.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body id="content">
-        <wrap>
-        <h2> Melissa E. Osheroff </h2>
-
-        <Header></Header>
-
-    <nav>
-        <navOption id="home-button" className="link"> Home </navOption>
-        <navOption id="github-button" className="link"> Github </navOption>
-        <navOption id="project-button" className="link" > Projects 
-          <!--<div class="menu" id="projectmenu">
-              <button class="project" id="project-2">Project 2</button>
-              <button class="project" id ="project-3">Project 3</button>
-          </div> -->
-        </navOption>
-        <navOption id="resume-button" className="link" href="https://drive.google.com/file/d/1C4S_4A7KjHSumRafDZuZHzzaKnhjhFov/view?usp=sharing"> Resume </navOption>
-        <navOption id="contact-button" className="link"> Contact </navOption>
-    </nav>
- 
-    <div ref={home} className="home">
-      <Home></Home>
-    </div>
-    <div ref={projects} className="projects">
-      <Projects></Projects>
-    </div>
-    <div ref={contact} className="contact">
-      <Contact></Contact>
-    </div>
-    <br>
-    <h1 id="introduction">Home</h1>
-    <h3 class="typewriter">I am so happy that you're here... :)</h3> 
-    <div class="subcontent">
-        <div class="item item-1">
-             <img src="./src/Components/images/Attach0.jpg" width="18%" height="auto" ></img> 
-             <img src="./src/Components/images/IMG_2093.jpg" width="18%" height="auto" ></img>
-             <img src="./src/Components/images/IMG_0968.jpeg" width="18%" height="auto" ></img>
-             <img src="./src/Components/images/IMG_8683.jpeg" width="18%" height="auto" ></img>
-             <img src="./src/Components/images/IMG_2543.jpg" width="18%" height="auto" ></img>
-        </div>
-        <div class="item description">
-            <p> Hi there! My name is Melissa, and I completed my degree in bioinformatics this Spring  
-            from the Department of Bioengineering at the University of California, San Diego. My passion lies in finding 
-            real-life applications of computer science and data analytics. I hope to leverage my understanding of 
-            algorithms and technology to create a positive impact in the world. I created this personal portfolio for the 
-            purpose of document coding projects and professional experiences. Please enjoy learning about me,
-            and don't be shy to reach out if you have any comments or questions!
-            </p>
-        </div>
-    </div>
-
-    <h1 id="githubs">Githubs</h1>
-    <div class="subcontent">
-        <p>Yes, I have two!</p>
-        <a href="https://github.com/Mosherof">github.com/Mosherof</a>
-        <a href="https://github.com/Melissa2002">github.com/Melissa2002</a>
-    </div>
-
-        
-        <div id="projects">
-            <h1> Projects </h1>
-            <div class="container">
-                <div class="item item-1" id = "project1"  href="https://github.com/cse110-sp24-group17/cse110-sp24-group17">
-                    <projectButton>
-                        <h3>Webscribe</h3>
-                        <img class="projectImage" src="./src/Components/images/webscribe.png" ></img>
-                    </projectButton>
-                </div>
-                <div class="item item-2" id="project2"  href="https://www.youtube.com/watch?v=GSb3hgVmxKY">
-                    <projectButton>
-                        <h3>MedDash</h3>
-                        <img class="projectImage" src="./src/Components/images/meddash.png"></img>
-               
-                    </projectButton>
-                </div>
-            </div>
-            <br>
-            <div class="container">
-                <div class="item item-1" id = "project3"  href="https://docs.google.com/presentation/d/1TA0Y1yJYtrWBmrIt7bzS5UMDWPzaz9a8t3xG3fjCxlA/edit?usp=sharing">
-                    <projectButton>
-                        <h3>CGM Fingerprinting Project</h3>
-                        <img class="projectImage" src="./src/Components/images/CGM.png"></img>
-                    </projectButton>
-                </div>
-                <div class="item item-2" id="project4"  href="https://docs.google.com/presentation/d/1lLPm_F4HUlg73Bu0c_pAar3Y3ujj3rf_vV5nmeaW6jo/edit?usp=sharing">
-                    <projectButton>
-                        <h3> Medical Imaging Data QC </h3>
-                        <img class="projectImage" src="./src/Components/images/Surgalign.png"></img>
-                    </projectButton>
-                </div>
-            </div>
-        </div>
-
-       <!-- <div id="about">
-            <h1>About Me</h1>
-            <p> Hello! My name is Melissa, and I am completing my degree in bioinformatics 
-                in the Spring of this year (2024) from the University of California, San Diego. 
-                This major gave me deep understanding of how computer science can be used to 
-                explain and analyze datasets too large otherwise to make sense of. When exploring 
-                technology in class, labs, and industry, I began to realize how little I truly 
-                began to understand that I did not ask enough questions about the commodities associated
-                 with living in California. I used technology everyday without questioning the painstaking 
-                 work it must have taken the inventions behind the product. 
-                 My true passion is asking "why?", exploring the unknown, and using this understanding to
-                 create what once seemed impossible.  </p>
-        </div>-->
-
-        <div id="contact">
-            <h1>Contact</h1>
-            <p> Let's chat! I am always looking for new projects and collaborations. </p>
-            <tr>
-               <td>
-               <contactButton id="contact-email" href="mailto:melissa.e.osheroff@gmail.com">
-                       <img class="contact-image" src="./src/Components/images/mail.png"></img> 
-                </contactButton >
-               </td>
-               <td>
-               <contactButton  id="contact-cell" href="tel:4155901894">
-                       <img class="contact-image" src="./src/Components/images/mobile-clipart-md.png" ></img> 
-               </contactButton >
-               </td>
-              
-            </tr>
-        </div>
+        <header>
+            <h1 id ="signature"> Melissa Osheroff
+                <!-- <img src="/signature transparent.svg" width="50%" height="auto" ></img> -->
+            </h1>
+            <nav>
+                <ul class="nav-bar">
+                    <img src="/500623-200.png" id="menu" left="50%" width="60%"></img>
+                    <li><a id="home-button" class="dropdown-content" className="link" >Home</a></li>
+                    <li><a id="github-button" class="dropdown-content"  className="link" >Github</a></li>
+                    <li><a  id="contact-button" class="dropdown-content"  className="link" >Contact</a></li>
+                    <li><a id="project-button" class="dropdown-content"  className="link">Projects</a></li>
+                    <li><a id="resume-button" class="dropdown-content"  className="link" href="https://drive.google.com/file/d/1C4S_4A7KjHSumRafDZuZHzzaKnhjhFov/view?usp=sharing">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        <bottom>
+            <div ref={home} className="home">
+                <Home></Home>
+              </div>
+              <div ref={projects} className="projects">
+                <Projects></Projects>
+              </div>
+              <div ref={contact} className="contact">
+                <Contact></Contact>
+              </div>
+              <br>
+              <h1 id="introduction"></h1>
+              <h3 class="typewriter">I am so happy that you're here... :)</h3> 
+              <div class="subcontent">
+                  <div id="MEDIV">
+                       <!-- <img src="./src/Components/images/Attach0.jpg" width="18%" height="auto" ></img>  -->
+                       <img src="./src/Components/images/IMG_0354.jpg" id="ME" left="50%" width="30%";></img>
+                       <!-- <img src="./src/Components/images/IMG_0968.jpeg" width="18%" height="auto" ></img>
+                       <img src="./src/Components/images/IMG_8683.jpeg" width="18%" height="auto" ></img>
+                       <img src="./src/Components/images/IMG_2543.jpg" width="18%" height="auto" ></img> -->
+                  </div>
+                  <div class="item description">
+                            Hi there! I recieved a bachelor's in bioinformatics from the University of California, San Diego in 2024. 
+                        I am currently interning at the Buck Institute in the Price Lab and volunteering at the University of California,
+                        San Francisco in the Abbasi Lab. This fall, I will be a master's student studying electrical and 
+                        computer engineering where I hope to gain insights on AI/ML and signal processing to better understand
+                        the brain. 
+                      </p>
+                  </div>
+                  <socials>
+                    <a id="githubs" href="https://github.com/Mosherof"><i class="fa fa-github" style="font-size:36px"></i></a>
+                    <a href="https://github.com/Melissa2002"> <i class="fa fa-github" style="font-size:36px"></i></a>
+                    <a id="contact" href="mailto:melissa.e.osheroff@gmail.com"> <i class="fa fa-envelope" style="font-size:36px"></i></a>
+                    <a id="contact-cell" href="tel:4155901894"><i class="fa fa-phone" style="font-size:36px"></i> </a>
+                    <a href="https://www.linkedin.com/in/melissaosheroff/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+                  </socials>
+              </div>
+              <hr>
+          
+                
+                  <div id="projects">
+                      <h1> Projects </h1>
+                      <div class="container">
+                          <div class="item item-1" id = "project1"  href="https://github.com/cse110-sp24-group17/cse110-sp24-group17">
+                              <projectButton>
+                                  <h3>Webscribe</h3>
+                                  <img class="projectImage" src="./src/Components/images/webscribe.png" ></img>
+                              </projectButton>
+                          </div>
+                          <div class="item item-2" id="project2"  href="https://www.youtube.com/watch?v=GSb3hgVmxKY">
+                              <projectButton>
+                                  <h3>MedDash</h3>
+                                  <img class="projectImage" src="./src/Components/images/meddash.png"></img>
+                         
+                              </projectButton>
+                          </div>
+                      </div>
+                      <br>
+                      <div class="container">
+                          <div class="item item-1" id = "project3"  href="https://docs.google.com/presentation/d/1TA0Y1yJYtrWBmrIt7bzS5UMDWPzaz9a8t3xG3fjCxlA/edit?usp=sharing">
+                              <projectButton>
+                                  <h3>CGM Fingerprinting Project</h3>
+                                  <img class="projectImage" src="./src/Components/images/CGM.png"></img>
+                              </projectButton>
+                          </div>
+                          <div class="item item-2" id="project4"  href="https://docs.google.com/presentation/d/1lLPm_F4HUlg73Bu0c_pAar3Y3ujj3rf_vV5nmeaW6jo/edit?usp=sharing">
+                              <projectButton>
+                                  <h3> Medical Imaging Data QC </h3>
+                                  <img class="projectImage" src="./src/Components/images/Surgalign.png"></img>
+                              </projectButton>
+                          </div>
+                      </div>
+                  </div>
+        </bottom>
     </wrap>
 	</body>
 </html>
