@@ -33,6 +33,22 @@ bottom {
   height: 10%
 }
 
+button{
+  all: unset;
+  padding: 10px 20px; /* Custom padding */
+  background-color: #ffcece; /* Button background color */
+  border-radius: 4px; /* Rounded corners */
+  border: 2px solid #ffcece;
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor when hovering over the button */
+}
+
+button:hover {
+  background-color: #fde7e7; /* Darker background on hover */
+  border-color:#fde7e7; 
+  background-image: url(./Components/images/bubbles.gif);
+}
+
 .contact-image {
   width: 30px;
   padding-left: 10px;
@@ -104,8 +120,12 @@ bottom {
 h1 {
   font-size: 40px;
 }
-h2 {
+h2{
   font-size: x-large;
+  font-family: "URW Chancery L", cursive;
+}
+
+h3{
   font-family: "URW Chancery L", cursive;
 }
 
@@ -198,9 +218,6 @@ navOption {
   padding-right: 2%;
   padding-top: 1%;
   padding-bottom: 1%;
- /* border: 4px solid #ffcece; */
-  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace; */
 }
 
 navOption:hover {
@@ -273,20 +290,23 @@ projectButton:hover {
   to { width: 50% }
 }
 
-/* The typewriter cursor effect 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color:  #fde7e7; }
-}*/
-
 wrap {
   background-image: url(./Components/images/bubbles.gif);
   background: #8c3636; 
 }
 
 
+@media (max-width: 768px) {
+  .project-grid {
+      grid-template-columns: 1fr;
+  }
+}
 
-
+@media (max-width: 480px) {
+  .project-card {
+      padding: 15px;
+  }
+}
 
 
 

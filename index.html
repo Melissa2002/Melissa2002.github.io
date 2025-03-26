@@ -12,47 +12,34 @@
 	</head>
 	<body id="content">
         <header>
-            <h1 id ="signature"> Melissa Osheroff
-                <!-- <img src="/signature transparent.svg" width="50%" height="auto" ></img> -->
-            </h1>
-            <nav>
-                <ul class="nav-bar">
+            <h1 id ="signature"> Melissa Osheroff </h1>
+            <nav> <ul class="nav-bar">
                     <img src="/500623-200.png" id="menu" left="50%" width="60%"></img>
                     <li><a id="home-button" class="dropdown-content" className="link" >Home</a></li>
                     <li><a id="github-button" class="dropdown-content"  className="link" >Github</a></li>
                     <li><a  id="contact-button" class="dropdown-content"  className="link" >Contact</a></li>
                     <li><a id="project-button" class="dropdown-content"  className="link">Projects</a></li>
-                    <li><a id="resume-button" class="dropdown-content"  className="link" href="https://drive.google.com/file/d/1C4S_4A7KjHSumRafDZuZHzzaKnhjhFov/view?usp=sharing">Resume</a></li>
-                </ul>
-            </nav>
+                    <li><a id="resume-button" class="dropdown-content"  className="link">Resume</a></li>
+                    <li><a id="fun-button" class="dropdown-content"  className="link">Fun</a></li>
+                </ul> </nav>
         </header>
         <bottom>
-            <div ref={home} className="home">
-                <Home></Home>
-              </div>
-              <div ref={projects} className="projects">
-                <Projects></Projects>
-              </div>
-              <div ref={contact} className="contact">
-                <Contact></Contact>
-              </div>
+            <div ref={home} className="home"><Home></Home></div>
+              <div ref={projects} className="projects"><Projects></Projects></div>
+              <div ref={contact} className="contact"><Contact></Contact></div>
               <br>
               <h1 id="introduction"></h1>
               <h3 class="typewriter">I am so happy that you're here... :)</h3> 
               <div class="subcontent">
                   <div id="MEDIV">
-                       <!-- <img src="./src/Components/images/Attach0.jpg" width="18%" height="auto" ></img>  -->
                        <img src="./src/Components/images/IMG_0354.jpg" id="ME" left="50%" width="30%";></img>
-                       <!-- <img src="./src/Components/images/IMG_0968.jpeg" width="18%" height="auto" ></img>
-                       <img src="./src/Components/images/IMG_8683.jpeg" width="18%" height="auto" ></img>
-                       <img src="./src/Components/images/IMG_2543.jpg" width="18%" height="auto" ></img> -->
                   </div>
                   <div class="item description">
-                            Hi there! I recieved a bachelor's in bioinformatics from the University of California, San Diego in 2024. 
+                        Hi there! I recieved a bachelor's in bioinformatics from the University of California, San Diego in 2024. 
                         I am currently interning at the Buck Institute in the Price Lab and volunteering at the University of California,
-                        San Francisco in the Abbasi Lab. This fall, I will start persuing a master's in electrical and 
-                        computer engineering where I hope to gain insights on AI/ML and signal processing to better understand
-                        the brain. This website serves as digital footprint, tracking my engineering journey. 
+                        San Francisco in the Abbasi Lab. This fall, I am beginning a master's in electrical and 
+                        computer engineering at the University of California, Santa Barbara, where I hope to gain insights on AI/ML and signal processing to better understand
+                        human health. This website serves as digital footprint, tracking my engineering journey. 
                       </p>
                   </div>
                   <socials>
@@ -64,10 +51,67 @@
                   </socials>
               </div>
               <hr>
-              <div id="cv">
+              <div id="projects">
+                <section class="portfolio">
+                    <h2>My Projects</h2>
+                    <div class="filters">
+                        <button class="filter" onclick="filterProjects('all')">All</button>
+                        <button class="filter" onclick="filterProjects('web')">Internships</button>
+                        <button class="filter" onclick="filterProjects('design')">Research</button>
+                        <button class="filter" onclick="filterProjects('app')">Personal</button>
+                    </div>
+                    <br>
+                    <div class="project-grid">
+                        <div class="project-card web">
+                             APIs and Infrastructure @ Codex Health 
+                        </div>
+                        <div class="project-card web">
+                            Visualizing MRIs for AI Applications via a Data Dashboard @ Surgalign Spine
+                        </div>
+                        <div class="project-card design">
+                             AI, APIs, and Degenerative Diseases @ the Price Lab - Buck Institute
+                        </div>
+                        <div class="project-card design">
+                            EEG Signal Preprocessing, Emotions, and AI @ The Abbasi Lab - University of California, San Francisco
+                        </div>
+                        <div class="project-card design">
+                            Data Visualizations of CGM Trace @ The Majithia Lab - University of California, San Diego
+                        </div>
+                        <div class="project-card app">
+                            Med-Dash, a New Approach to Health Exploration 
+                        </div>
+                        <div class="project-card app">
+                            Find NPS Campsites, See Availabilities Faster
+                        </div>
+                    </div>
+                </section>
+                
+              </div>
+              <hr>
+              <div ref={resume} className="resume" id="resume">
                 <a href="https://drive.google.com/file/d/1YgIvwjulb_YPZ_UiS5iLXdrCbLyzBkoU/view?usp=sharing"><h2>Curriculum Vitae</h2></a>
               </div>
-          
+              <hr>
+              <div ref={fun} className="fun" id="fun"><Fun>
+                <h2>Fun and Thoughts</h2>
+                <h3>My 2025 Goals</h3>
+                <ol>
+                    <li>Journal +1/week 🛠️</li>
+                    <li>Make Art! 🛠️</li>
+                    <li>Complete a research paper 🛠️</li>
+                    <li>Commit to graduate school ✅</li>
+                    <li>Finish another book series 🛠️</li>
+                    <li>Spin, yoga, running 🛠️ </li>
+                    <li>Cook dinner +3/week 🛠️</li>
+                    <li>Start more conversations 🛠️</li>
+                    <li>Complete Website 🛠️</li>
+                    <li>Go camping +3 times 🛠️</li>
+                    <li>Finish the Harry Potter Series ✅</li>
+                    <li>Speak up more during lab meetings 🛠️</li>
+                    <li>Use less plastic 🛠️</li>
+                </ol>
+                <!-- <h3>The Stigma Surrounding Community College</h3> -->
+            </Fun></div>
                 
                   <!-- <div id="projects">
                       <h2> Projects </h2>
