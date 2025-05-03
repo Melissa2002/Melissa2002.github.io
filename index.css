@@ -310,3 +310,103 @@ wrap {
 
 
 
+/* Blog Page Styles */
+.blog-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.blog-post {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.blog-post:hover {
+  transform: translateY(-5px);
+}
+
+.post-date {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Active navigation link */
+.nav-bar .active {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Price Lab page specific styles */
+.price-lab-background {
+    background: linear-gradient(rgba(253, 231, 231, 0.9), rgba(253, 231, 231, 0.9)), url('Buck.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.price-lab-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Featured image styling */
+.featured-image {
+    width: 60%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 4px solid #ffcece;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+.featured-image:hover {
+    opacity: 1;
+}
+
+.med-image {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.med-image:hover {
+  opacity: 1;
+}
