@@ -27,7 +27,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #fde7e7; 
   color: #000000;
-  
 }
 bottom {
   height: 10%
@@ -329,11 +328,11 @@ wrap {
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .blog-post:hover {
-  transform: translateY(-5px);
+  transform: scale(1.02);
 }
 
 .post-date {

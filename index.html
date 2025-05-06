@@ -20,7 +20,7 @@
                     <li><a  id="contact-button" class="dropdown-content"  className="link" >Contact</a></li>
                     <li><a id="project-button" class="dropdown-content"  className="link">Projects</a></li>
                     <li><a id="resume-button" class="dropdown-content"  className="link">Resume</a></li>
-                    <li><a id="fun-button" class="dropdown-content"  className="link">Fun</a></li>
+                    <li><a id="fun-button" class="dropdown-content"  className="link">Blog</a></li>
                 </ul> </nav>
         </header>
         <bottom>
@@ -29,25 +29,28 @@
               <div ref={contact} className="contact"><Contact></Contact></div>
               <br>
               <h1 id="introduction"></h1>
-              <h3 class="typewriter">I am so happy that you're here... :)</h3> 
-              <div class="subcontent">
-                  <div id="MEDIV">
-                       <img src="./src/Components/images/IMG_0354.jpg" id="ME" left="50%" width="30%";></img>
-                  </div>
-                  <div class="item description">
+              <div style="text-align: center; width: 100%; margin-bottom: 30px;">
+                <h3 class="typewriter" style="margin: 0 auto;">I am so happy that you're here... :)</h3> 
+              </div>
+              <div id="MEDIV" style="display: flex; justify-content: center; width: 100%; margin-bottom: 30px;">
+                <img src="./src/Components/images/IMG_0354.jpg" id="ME" style="width: 30%; max-width: 300px; margin: 0 auto;"></img>
+           </div>
+         
+                    <div class="subcontent" style="display: flex; flex-direction: column; align-items: center; text-align: center; width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+                        <div style=" text-align: center; font-size: 18px;">
                         Hi there! I recieved a bachelor's in bioinformatics from the Jacob's School of Engineering at the University of California, San Diego in 2024. 
                         This fall, I am beginning a master's in electrical and computer engineering at the University of California, Santa Barbara. 
                         I hope to build insights on AI/ML and signal processing to improve human health. This website serves as digital footprint, tracking my engineering journey. 
-                      </p>
-                  </div>
-                  <socials>
-                    <a id="githubs" href="https://github.com/Mosherof"><i class="fa fa-github" style="font-size:36px"></i></a>
-                    <a href="https://github.com/Melissa2002"> <i class="fa fa-github" style="font-size:36px"></i></a>
-                    <a id="contact" href="mailto:melissa.e.osheroff@gmail.com"> <i class="fa fa-envelope" style="font-size:36px"></i></a>
-                    <a id="contact-cell" href="tel:4155901894"><i class="fa fa-phone" style="font-size:36px"></i> </a>
-                    <a href="https://www.linkedin.com/in/melissaosheroff/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
-                  </socials>
-              </div>
+                        </div>
+                        <socials style="margin: 20px auto; display: flex; justify-content: center; gap: 20px;">
+                          <a id="githubs" href="https://github.com/Mosherof"><i class="fa fa-github" style="font-size:36px"></i></a>
+                          <a href="https://github.com/Melissa2002"> <i class="fa fa-github" style="font-size:36px"></i></a>
+                          <a id="contact" href="mailto:melissa.e.osheroff@gmail.com"> <i class="fa fa-envelope" style="font-size:36px"></i></a>
+                          <a id="contact-cell" href="tel:4155901894"><i class="fa fa-phone" style="font-size:36px"></i> </a>
+                          <a href="https://www.linkedin.com/in/melissaosheroff/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+                        </socials>
+                    </div>
+       
               <hr>
               <div id="projects">
                 <section class="portfolio">
@@ -58,19 +61,23 @@
                                     <div class="blog-posts">
                                       
                                         <article class="blog-post">
+                                            <a href="/pricelab.html" style="text-decoration: none; color: inherit;">
                                             <h3>Researching AI and Degenerative Diseases @ the Price Lab - Buck Institute</h3>
                                             <p class="post-date">February 2025 to present</p>
                                             <p>The Buck Instituteis a non-profit research organization that focuses on finding
                                                 cures...</p>
+                                            </a>
                                             <a href="/pricelab.html" class="read-more">Read More</a>
                                         </article>
                                   
-
+                                         
                                         <article class="blog-post">
+                                            <a href="/abbasilab.html" style="text-decoration: none; color: inherit;">
                                             <h3>Researching AI and EEGs @ The Abbasi Lab - University of California, San Francisco</h3>
                                             <p class="post-date">January 2025 to present</p>
                                             <p>After interning with Surgalign Spine in 2023, I developed an interest in further exploring the...</p>
                                             <a href="/abbasilab.html" class="read-more">Read More</a>
+                                        </a>
                                         </article>
 
                                         <!-- <article class="blog-post">
@@ -80,22 +87,28 @@
                                             <a href="/codexinternship.html" class="read-more">Read More</a>
                                         </article> -->
                                         <article class="blog-post">
+                                            <a href="/capstone.html" style="text-decoration: none; color: inherit;">
                                             <h3>Undergraduate Capstone Project: Med-Dash, a New Approach to Health Exploration </h3>
                                             <p class="post-date">September 2023 to June 2024</p>
                                             <p> It is no secret that the older we get, the more likely it is that we will develop a chronic...</p>
+                                        </a>
                                             <a href="/capstone.html" class="read-more">Read More</a>
                                         </article>
 
                                         <article class="blog-post">
+                                            <a href="/surgaligninternship.html" style="text-decoration: none; color: inherit;">
                                             <h3>Interning as a Data Engineer @ Surgalign Spine</h3>
                                             <p class="post-date">January to August, 2023</p>
                                             <p>Check out my slide deck which summarizes my first three months at Surgalign Spine! This...</p>
+                                        </a>
                                             <a href="/surgaligninternship.html" class="read-more">Read More</a>
                                         </article>
                                         <article class="blog-post">
+                                            <a href="/majithialab.html" style="text-decoration: none; color: inherit;">
                                             <h3>Researching Diabetes with Visualizations @ The Majithia Lab - University of California, San Diego</h3>
                                             <p class="post-date">June 2022 to December 2022</p>
                                             <p>I will update this page soon! Until then, check out my slide deck that I presented Fall 2022...</p>
+                                        </a>
                                             <a href="/majithialab.html" class="read-more">Read More</a>
                                         </article>
                                        
@@ -113,60 +126,24 @@
                 <a href="https://drive.google.com/file/d/1YgIvwjulb_YPZ_UiS5iLXdrCbLyzBkoU/view?usp=sharing">CLICK HERE</a>
               </div>
               <hr>
-              <!-- <div ref={fun} className="fun" id="fun"><Fun>
-                <h2>Fun and Thoughts</h2>
-                <a href="/blog.html"><h3>My 2025 Goals</h3> </a>
-                <ol>
-                    <li>Journal +1/week 🛠️</li>
-                    <li>Make Art! 🛠️</li>
-                    <li>Complete a research paper 🛠️</li>
-                    <li>Commit to graduate school ✅</li>
-                    <li>Finish another book series 🛠️</li>
-                    <li>Spin, yoga, running 🛠️ </li>
-                    <li>Cook dinner +3/week 🛠️</li>
-                    <li>Start more conversations 🛠️</li>
-                    <li>Complete Website 🛠️</li>
-                    <li>Go camping +3 times 🛠️</li>
-                    <li>Finish the Harry Potter Series ✅</li>
-                    <li>Speak up more during lab meetings 🛠️</li>
-                    <li>Use less plastic 🛠️</li>
-                </ol>
-                 <h3>The Stigma Surrounding Community College</h3> 
-            </Fun></div> 
+            <div ref={fun} className="fun" id="fun">
+                <h2>Blog</h2>
+                <div class="blog-container">
+                    <div class="blog-posts">
+                        <article class="blog-post">
+                            <a href="/whyece.html" style="text-decoration: none; color: inherit;">
+                            <h3>Why, and How, I Pursued a Master's in Electrical and Computer Engineering</h3>
+                            <p class="post-date">May 5, 2025</p>
+                         </a>
+                            <!-- <a href="/whyece.html" class="read-more">Read More</a> -->
+                        </article>
+                        
+                        <!-- Add more blog posts here following the same structure -->
+                    </div>
+                </div>
+            </div> 
                 
-               <div id="projects">
-                      <h2> Projects </h2>
-                      <div class="container">
-                          <div class="item item-1" id = "project1"  href="https://github.com/cse110-sp24-group17/cse110-sp24-group17">
-                              <projectButton>
-                                  <h3>Webscribe</h3>
-                                  <img class="projectImage" src="./src/Components/images/webscribe.png" ></img>
-                              </projectButton>
-                          </div>
-                          <div class="item item-2" id="project2"  href="https://www.youtube.com/watch?v=GSb3hgVmxKY">
-                              <projectButton>
-                                  <h3>MedDash</h3>
-                                  <img class="projectImage" src="./src/Components/images/meddash.png"></img>
-                         
-                              </projectButton>
-                          </div>
-                      </div>
-                      <br>
-                      <div class="container">
-                          <div class="item item-1" id = "project3"  href="https://docs.google.com/presentation/d/1TA0Y1yJYtrWBmrIt7bzS5UMDWPzaz9a8t3xG3fjCxlA/edit?usp=sharing">
-                              <projectButton>
-                                  <h3>CGM Fingerprinting Project</h3>
-                                  <img class="projectImage" src="./src/Components/images/CGM.png"></img>
-                              </projectButton>
-                          </div>
-                          <div class="item item-2" id="project4"  href="https://docs.google.com/presentation/d/1lLPm_F4HUlg73Bu0c_pAar3Y3ujj3rf_vV5nmeaW6jo/edit?usp=sharing">
-                              <projectButton>
-                                  <h3> Medical Imaging Data QC </h3>
-                                  <img class="projectImage" src="./src/Components/images/Surgalign.png"></img>
-                              </projectButton>
-                          </div>
-                      </div>
-                  </div> -->
+            
         </bottom>
     </wrap>
 	</body>
