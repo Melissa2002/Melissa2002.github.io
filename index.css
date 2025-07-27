@@ -22,7 +22,7 @@ body {
   margin-left: 15%;
   margin-right: 15%;
   padding-top: 0px;
-  font-family: "Sans Serrif", "Helvetica", monospace;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #fde7e7; 
@@ -118,14 +118,18 @@ button:hover {
 
 h1 {
   font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
 }
 h2{
   font-size: x-large;
-  font-family: "URW Chancery L", cursive;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
 }
 
 h3{
-  font-family: "URW Chancery L", cursive;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
 }
 
 Header {
@@ -261,7 +265,8 @@ projectButton:hover {
 }
 
 #signature{
-  font-family: "URW Chancery L", cursive;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
   text-align: left;
   width: 100%;
 }
@@ -277,7 +282,8 @@ projectButton:hover {
   white-space: nowrap; /* Keeps the content on a single line */
   /*margin: 50 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  font-family: "URW Chancery L", cursive;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
   animation: 
     typing 4.0s steps(40, end),
     blink-caret .75s step-end infinite;
